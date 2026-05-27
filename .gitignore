@@ -245,6 +245,8 @@ data/*.csv
 # ── Modeller & tunga outputs ──────────────────────────────
 outputs/results/*.pkl
 outputs/results/*.joblib
+outputs/figures/
+outputs/results/*.json
 
 # ── OS-filer ──────────────────────────────────────────────
 .DS_Store
