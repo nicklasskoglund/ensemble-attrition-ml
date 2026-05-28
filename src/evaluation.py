@@ -36,7 +36,6 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import numpy as np
-import seaborn as sns
 from sklearn.inspection import permutation_importance
 from sklearn.metrics import (
     ConfusionMatrixDisplay,
