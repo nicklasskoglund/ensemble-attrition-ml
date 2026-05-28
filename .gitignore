@@ -216,3 +216,45 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ───────────────────────────────────
+.venv/
+env/
+venv/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data – råfiler committas inte (för stora) ─────────────
+# Obs: den rensade filen committas heller inte automatiskt.
+# Ladda ner rådata manuellt från Kaggle (se README).
+data/*.csv
+
+# ── Modeller & tunga outputs ──────────────────────────────
+outputs/results/*.pkl
+outputs/results/*.joblib
+outputs/figures/
+outputs/results/*.json
+
+# ── OS-filer ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE-inställningar ─────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Miljövariabler ────────────────────────────────────────
+.env
